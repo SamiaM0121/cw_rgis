@@ -1,3 +1,5 @@
+
+```{r}
 # Take-home assignment for 10/16/2025
 
 if (!require(pacman)) install.packages("pacman")
@@ -93,3 +95,13 @@ df_county_areas <- sf_county_s1 %>%
 df_county_areas %>%
   arrange(desc(county_area)) %>%
   slice(1)
+```
+
+
+
+---
+title: assignment.R
+author: samia
+date: '2025-10-16'
+
+---
